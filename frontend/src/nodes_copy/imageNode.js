@@ -24,7 +24,7 @@ export const ImageNode = ({ id, data }) => {
       label="Upload Image"
       inputHandles={[]}
       outputHandles={[{ idName: "image", position: Position.Right }]}
-      styleClasses="bg-white border border-purple-400 shadow-sm shadow-purple-400 p-4 rounded-lg flex flex-col gap-2 min-w-72"
+      styleClasses="bg-white border-2 border-purple-400 shadow-sm shadow-purple-400 p-4 rounded-lg flex flex-col gap-2 min-w-72"
     >
       <label className="flex flex-col gap-2 items-start font-medium">
         <input

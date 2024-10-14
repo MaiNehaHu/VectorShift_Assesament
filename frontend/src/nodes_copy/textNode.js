@@ -46,7 +46,7 @@ export const TextNode = ({ id, data }) => {
       label="Text"
       inputHandles={[]}
       outputHandles={[{ idName: "output", position: Position.Right }]}
-      styleClasses="bg-white border-2 border-slate-500 p-4 rounded-lg flex flex-col gap-2 min-w-80"
+      styleClasses="bg-white border-2 border-slate-500 shadow-sm shadow-slate-500 p-4 rounded-lg flex flex-col gap-2 min-w-80"
     >
       <label className="flex flex-col gap-2 items-start justify-between font-medium text-black w-full">
         <textarea

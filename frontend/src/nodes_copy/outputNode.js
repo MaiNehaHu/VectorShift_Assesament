@@ -13,7 +13,7 @@ export const OutputNode = ({ id, data }) => {
       label="Output"
       inputHandles={[{ idName: "value", position: Position.Left }]}
       outputHandles={[]}
-      styleClasses="bg-white border border-blue-500 shadow shdow-blue-500 p-4 rounded-lg flex flex-col gap-2 w-72"
+      styleClasses="bg-white border-2 border-blue-500 shadow shadow-blue-500 p-4 rounded-lg flex flex-col gap-2 w-72"
     >
       <label className="flex flex-row gap-2 items-center justify-between font-medium">
         Name:

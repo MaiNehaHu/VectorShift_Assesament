@@ -24,7 +24,7 @@ export const DateNode = ({ id, data }) => {
       label="Date"
       inputHandles={[]}
       outputHandles={[{ idName: "date", position: Position.Right }]}
-      styleClasses="bg-white border border-yellow-400 shadow-sm shadow-yellow-400 p-4 rounded-lg flex flex-col gap-2 min-w-72"
+      styleClasses="bg-white border-2 border-yellow-400 shadow-sm shadow-yellow-400 p-4 rounded-lg flex flex-col gap-2 min-w-72"
     >
       <label className="flex flex-row gap-2 items-center font-medium text-black">
         <input

@@ -23,7 +23,7 @@ export const FileNode = ({ id, data }) => {
       label="Upload File"
       inputHandles={[]}
       outputHandles={[{ idName: "file", position: Position.Right }]}
-      styleClasses="bg-white border border-orange-400 shadow-sm shadow-orange-500 p-4 rounded-lg flex flex-col gap-2 min-w-72"
+      styleClasses="bg-white border-2 border-orange-400 shadow-sm shadow-orange-500 p-4 rounded-lg flex flex-col gap-2 min-w-72"
     >
       <label className="flex flex-row gap-2 items-center font-medium">
         <input

@@ -15,7 +15,7 @@ export const RadioNode = ({ id, data }) => {
       label="Radio"
       inputHandles={[]}
       outputHandles={[{ idName: "radio", position: Position.Right }]}
-      styleClasses="bg-white border border-sky-500 shadow shadow-sky-500 p-4 rounded-lg flex flex-col gap-2 min-w-72"
+      styleClasses="bg-white border-2 border-sky-500 shadow shadow-sky-500 p-4 rounded-lg flex flex-col gap-2 min-w-72"
     >
       <label className="flex flex-col gap-2">
         <div className="flex items-center gap-2">
